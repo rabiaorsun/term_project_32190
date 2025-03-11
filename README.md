@@ -1,5 +1,5 @@
 # term_project_32190
-# Air Pollution, Water Pollution, and Lung Cancer: A Comparative Study of India and Canada
+# Environmental and Socioeconomic Factors Affecting Lung Cancer: A Comparative Study of India and Canada
 
 # Motivation #
 Air pollution and water pollution which is mostly caused by air contamination are two major environmental challenges that have significant health impacts worldwide. Studies have shown that ongoing exposure to poor air quality can lead to respiratory diseases, including lung cancer, while contaminated water sources can further exacerbate health risks. This project explore the intricate relationship between air pollution, water pollution, and lung cancer incidence in two distinct countries—India(low air and water quality) and Canada(high air and water quality). By comparing these two nations with contrasting environmental policies, pollution levels, and healthcare infrastructures, we seek to understand how these factors influence public health outcomes. Through this study, we hope to provide data-driven insights into the role of environmental pollution in lung cancer cases, contributing to better policymaking and public awareness.
