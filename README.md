@@ -20,39 +20,46 @@ Understanding the factors influencing lung cancer can help policymakers and heal
 # Data Source #
 The data for this study will be collected from multiple publicly available sources:
 
--
-- **Lung Cancer Rates(World Health Organization) :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows.
-- Link: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths
-- **Asia's 2023 Air Report(Kaggle) :** In this data there are 16 columns which shows the air quality by looking at each month information sets. In this dateset I will just use for India in order to show further the pollution. Link: https://www.kaggle.com/datasets/shruthiiiee/asia-2023-air-report-2000-cities
-
 #### **Environmental Factors**
 - **Air Pollution:**
-  - **Global Air Pollution Dataset(Kaggle):**  WHO, AQI datasets, government pollution monitoring agencies (PM2.5, PM10, NO2, CO2 levels). In this data we have 12 column in this data I will just use India 
-  and Canada rows. Link: https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset
+  - **Global Air Pollution Dataset:**  WHO, AQI datasets, government pollution monitoring agencies (PM2.5, PM10, NO2, CO2 levels). In this data we have 12 column in this data I will just use India 
+  and Canada rows. Link: https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset(Kaggle)
   - **India:** In this data there are 16 columns which shows the air quality by looking at each month information sets. In this dateset I will just use for India in order to show further the pollution. 
-  Link: https://www.kaggle.com/datasets/shruthiiiee/asia-2023-air-report-2000-cities
-  - **Canada:** [Air Quality Health Index (AQHI)](https://www.canada.ca/en/environment-climate-change/services/air-quality-health-index.html)  
+  Link: https://www.kaggle.com/datasets/shruthiiiee/asia-2023-air-report-2000-cities (Kaggle)
+  - **Canada:** (https://www.canada.ca/en/environment-climate-change/services/air-quality-health-index.html) [Air Quality Health Index (AQHI)] 
 
 - **Water Pollution:**
-  -- **World's Air Quality and Water Pollution Dataset(Kaggle):** UN water quality reports and air quality levels. In this data there are 5 colums. I will just use India and Canada rows in this dataset.
-- Link: https://www.kaggle.com/datasets/victorahaji/worlds-air-quality-and-water-pollution-dataset
+  -- **World's Air Quality and Water Pollution Dataset:** UN water quality reports and air quality levels. In this data there are 5 colums. I will just use India and Canada rows in this dataset.
+- Link: https://www.kaggle.com/datasets/victorahaji/worlds-air-quality-and-water-pollution-dataset (Kaggle)
 
-- **Occupational Hazards:**  
-  - **India:** [Labour Bureau of India](https://labour.gov.in/labourbureau)  
-  - **Canada:** [Canadian Centre for Occupational Health and Safety (CCOHS)](https://www.ccohs.ca/)  
-
+- **Occupational Hazards:**
+  - **Industrial Safety and Health Analytics Database:** https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database we have the information of the safety for each country.
+  - **India:** (https://labour.gov.in/labourbureau) [Labour Bureau of India]
+  - **Canada:** (https://www.ccohs.ca/) [Canadian Centre for Occupational Health and Safety (CCOHS)]
+ 
+-**Genetic Factors:** 
+   - **India:** https://www.kaggle.com/datasets/aizahzeeshan/lung-cancer-risk-in-25-countries (Kaggle)
+   - **Canada:** https://cancer.ca/en/cancer-information/cancer-types/lung/risks (Canadian Cancer Society)
+   
 #### **Socioeconomic Factors**
 - **Smoking and Tobacco Use:**  
-  - **India:** [Global Adult Tobacco Survey (GATS)](https://ntcp.nhp.gov.in/)  
-  - **Canada:** [Canadian Tobacco and Nicotine Survey (CTNS)](https://www.canada.ca/en/health-canada/services/canadian-tobacco-nicotine-survey.html)  
+  - **India:** (https://ntcp.nhp.gov.in/)  [Global Adult Tobacco Survey (GATS)]
+  - **Canada:** (https://www.canada.ca/en/health-canada/services/canadian-tobacco-nicotine-survey.html)  [Canadian Tobacco and Nicotine Survey (CTNS)]
 
 - **Healthcare Accessibility:**  
-  - **India:** [National Health Profile](https://www.cbhidghs.nic.in/)  
-  - **Canada:** [Canadian Institute for Health Information (CIHI)](https://www.cihi.ca/)  
+  - **India:** (https://www.cbhidghs.nic.in/)  [National Health Profile]
+  - **Canada:** (https://www.cihi.ca/)  [Canadian Institute for Health Information (CIHI)]
 
 - **Economic and Urban-Rural Divide:**  
-  - **India:** [Census of India](https://censusindia.gov.in/)  
-  - **Canada:** [Census Program by Statistics Canada](https://www12.statcan.gc.ca/census-recensement/index-eng.cfm)  
+  - **India:** (https://censusindia.gov.in/)  [Census of India]
+  - **Canada:** (https://www12.statcan.gc.ca/census-recensement/index-eng.cfm)  [Census Program by Statistics Canada]
+
+-**World Population Dataset:**
+   - **India and Canada:** https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset (Kaggle)
+
+
+#### **Outcome **
+-**Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
 
 
 
