@@ -54,7 +54,7 @@ The data for this study will be collected from multiple publicly available sourc
   - **India:** (https://censusindia.gov.in/)  [Census of India]
   - **Canada:** (https://www12.statcan.gc.ca/census-recensement/index-eng.cfm)  [Census Program by Statistics Canada]
 
--**World Population Dataset:**
+- **World Population Dataset:**
    - **India and Canada:** https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset (Kaggle)
 
 
