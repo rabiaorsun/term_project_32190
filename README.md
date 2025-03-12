@@ -37,7 +37,7 @@ The data for this study will be collected from multiple publicly available sourc
   - **India:** (https://labour.gov.in/labourbureau) [Labour Bureau of India]
   - **Canada:** (https://www.ccohs.ca/) [Canadian Centre for Occupational Health and Safety (CCOHS)]
  
--**Genetic Factors:** 
+- **Genetic Factors:** 
    - **India:** https://www.kaggle.com/datasets/aizahzeeshan/lung-cancer-risk-in-25-countries (Kaggle)
    - **Canada:** https://cancer.ca/en/cancer-information/cancer-types/lung/risks (Canadian Cancer Society)
    
@@ -58,8 +58,8 @@ The data for this study will be collected from multiple publicly available sourc
    - **India and Canada:** https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset (Kaggle)
 
 
-#### **Outcome **
--**Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
+#### **Outcome**
+   -**Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
 
 
 
