@@ -59,7 +59,7 @@ The data for this study will be collected from multiple publicly available sourc
 
 
 #### **Outcome**
-   -**Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
+   - **Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
 
 
 
