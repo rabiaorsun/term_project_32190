@@ -49,7 +49,40 @@ The data for this study will be collected from multiple publicly available sourc
 
 #### **Outcome**
    - **Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
+## 🔍 Data Analysis
 
+## 1. Data Preprocessing
+-Datasets from multiple sources — including air pollution, water pollution, smoking rates, healthcare access, population, and lung cancer incidence — were collected and compiled.
+-First we determine the effect of each attribute to outcome within each country
+-All datasets were filtered to include only India and Canada, allowing for a focused comparative analysis.
+-The data were aligned by year and country, and merged into a single unified dataset for analysis.
+-Missing data were cleaned and handled appropriately using techniques such as interpolation or mean imputation.
+
+## 2. Exploratory Data Analysis (EDA)
+-The distributions of all independent variables were examined (e.g., PM2.5, PM10, NO2, water pollution index, smoking rates, healthcare spending).
+-Separate time-series plots were created for India and Canada to visualize environmental and socioeconomic trends.
+-Preliminary observations showed that India has generally higher levels of air and water pollution, along with elevated smoking rates, compared to Canada.
+
+## 3. Correlation Analysis
+-The relationships between each independent variable and lung cancer incidence were measured using Pearson and Spearman correlation coefficients.
+-Correlation matrices were generated to assess the strength and direction of associations.
+-Notably, PM2.5(I named it "Air Pollution" based on the information) and smoking rates exhibited a positive correlation with lung cancer rates, suggesting that these factors may be significant contributors.
+
+## 4. Regression Modeling
+-A Multiple Linear Regression model was constructed to determine which factors most significantly impact lung cancer incidence.
+-Dependent variable: Lung Cancer Incidence Rate
+-Independent variables: Air Pollution, water pollution index, smoking rate, healthcare access, population over age 65
+The model was evaluated using:
+  - correlation value is calculated
+  - p-values to test the statistical significance of each factor.
+
+## 5. Visualization
+-Heatmaps were used to visually represent correlations between all variables.
+-Scatter plots were created to illustrate the relationships between individual variables and lung cancer incidence.
+-Box plots compared average values of key variables between India and Canada.
+
+## 🔍 Findings
+![image](https://github.com/user-attachments/assets/e0f86a84-577c-4a20-bc86-53cba932ded7)
 
 
 
