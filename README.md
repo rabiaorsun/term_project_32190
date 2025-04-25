@@ -249,7 +249,9 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 
 ![image](https://github.com/user-attachments/assets/82f2bd63-873c-4860-af9f-94fe7c928bd7)
 
+**Summary**
 > The chart shows a contrasting trend in lung cancer mortality between Canada and India over time.  
 > While Canada demonstrates a steady **decline**—likely due to effective tobacco control policies, early diagnosis, and better healthcare—India exhibits a **consistent increase**, suggesting a growing environmental and public health burden.  
 > By 2020, India surpasses Canada in lung cancer mortality, highlighting the urgent need for policy intervention, especially around pollution and tobacco control.
 
+## You can reach my code: [Dosyaya Gitmek İçin Tıklayın](./main.ipynb)
