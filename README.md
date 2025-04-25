@@ -58,26 +58,26 @@ The data for this study will be collected from multiple publicly available sourc
 
 **My final and combined CSV file:** [Click here to view](./final_clean_combined_dataset.csv)
 
-### **🔍 Data Analysis**
+### 🔍 Data Analysis
 
-## 1. Data Preprocessing
+**1. Data Preprocessing**
 -Datasets from multiple sources — including air pollution, water pollution, smoking rates, healthcare access, population, and lung cancer incidence — were collected and compiled.
 -First we determine the effect of each attribute to outcome within each country
 -All datasets were filtered to include only India and Canada, allowing for a focused comparative analysis.
 -The data were aligned by year and country, and merged into a single unified dataset for analysis.
 -Missing data were cleaned and handled appropriately using techniques such as interpolation or mean imputation.
 
-## 2. Exploratory Data Analysis (EDA)
+**2. Exploratory Data Analysis (EDA)**
 -The distributions of all independent variables were examined (e.g., PM2.5, PM10, NO2, water pollution index, smoking rates, healthcare spending).
 -Separate time-series plots were created for India and Canada to visualize environmental and socioeconomic trends.
 -Preliminary observations showed that India has generally higher levels of air and water pollution, along with elevated smoking rates, compared to Canada.
 
-## 3. Correlation Analysis
+**3. Correlation Analysis**
 -The relationships between each independent variable and lung cancer incidence were measured using Pearson and Spearman correlation coefficients.
 -Correlation matrices were generated to assess the strength and direction of associations.
 -Notably, PM2.5(I named it "Air Pollution" based on the information) and smoking rates exhibited a positive correlation with lung cancer rates, suggesting that these factors may be significant contributors.
 
-## 4. Regression Modeling
+**4. Regression Modeling**
 -A Multiple Linear Regression model was constructed to determine which factors most significantly impact lung cancer incidence.
 -Dependent variable: Lung Cancer Incidence Rate
 -Independent variables: Air Pollution, water pollution index, smoking rate, healthcare access, population over age 65
@@ -85,13 +85,13 @@ The model was evaluated using:
   - correlation value is calculated
   - p-values to test the statistical significance of each factor.
 
-## 5. Visualization
+**5. Visualization**
 -Heatmaps were used to visually represent correlations between all variables.
 -Scatter plots were created to illustrate the relationships between individual variables and lung cancer incidence.
 -Box plots compared average values of key variables between India and Canada.
 
-## **🔍 Findings and Hyphotesis**
-## The Comparision of India
+## 🔍 Findings and Hyphotesis
+## **The Comparision of India**
  🔵Testing: Tobacco Use vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Tobacco Use and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Tobacco Use and Lung Cancer Mortality.
@@ -141,9 +141,9 @@ p-value = 0.0000
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
 ![image](https://github.com/user-attachments/assets/be973d9d-0b8e-4520-ba93-38d6c07e1741)
 
-## Comparision Table 
+**Comparision Table**
 ![image](https://github.com/user-attachments/assets/88ac205d-9057-4605-ad69-253768d5051d)
-## 📌 Interpretation ##
+-📌 Interpretation 
  -All five variables show statistically significant relationships with lung cancer mortality in India (p < 0.05).
 
  -Tobacco Use and Air Pollution have strong negative correlations, suggesting that as these factors increase, lung cancer mortality tends to rise.
@@ -153,7 +153,7 @@ p-value = 0.0000
  -Water Pollution also shows a significant negative relationship.
 
 
-## The Comparision of Canada
+## **The Comparision of Canada**
  🔎 Testing: Tobacco Use
 H0: There is no relationship between Tobacco Use and Lung Cancer Mortality.
 H1: There is a relationship between Tobacco Use and Lung Cancer Mortality.
@@ -193,22 +193,22 @@ Spearman ρ = -0.841, p-value = 0.00000000
 ✅ Reject H0 (Significant relationship detected)
 ![image](https://github.com/user-attachments/assets/4e779536-39c5-486c-b368-f643e7c563ff)
 
-## Comparision Table 
+**Comparision Table**
 ![image](https://github.com/user-attachments/assets/b6ea0d0a-2d21-478e-ae12-8c5c477ced29)
-## 📌 Key Observations:
- -Tobacco Use:
+-📌 Key Observations:
+  -Tobacco Use:
 A very strong positive correlation (ρ = 0.835) suggests that increased tobacco use is strongly associated with higher lung cancer rates. This is one of the most critical factors influencing the disease.
 
- -Air Pollution:
+  -Air Pollution:
 Shows a moderately strong positive correlation (ρ = 0.659), supporting the idea that poor air quality significantly contributes to lung cancer incidence.
 
- -Water Pollution:
+  -Water Pollution:
 Displays a weaker but still meaningful positive correlation (ρ = 0.587), indicating environmental pollution in general is a relevant factor.
 
- -Health Expenditure:
+  -Health Expenditure:
 Strong negative correlation (ρ = -0.811) suggests that higher investment in healthcare is associated with lower lung cancer rates, possibly due to better prevention and early diagnosis.
 
- -Doctors per 1,000:
+  -Doctors per 1,000:
 The most negative correlation (ρ = -0.841), indicating that greater healthcare accessibility (measured by medical staff availability) is strongly linked to lower incidence rates.
 
 
