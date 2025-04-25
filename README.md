@@ -32,14 +32,7 @@ The data for this study will be collected from multiple publicly available sourc
   -- **World's Air Quality and Water Pollution Dataset:** UN water quality reports and air quality levels. In this data there are 5 colums. I will just use India and Canada rows in this dataset.
 - Link: https://www.kaggle.com/datasets/victorahaji/worlds-air-quality-and-water-pollution-dataset (Kaggle)
 
-- **Occupational Hazards:**
-  - **Industrial Safety and Health Analytics Database:** https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database we have the information of the safety for each country.
-  - **India:** (https://labour.gov.in/labourbureau) [Labour Bureau of India]
-  - **Canada:** (https://www.ccohs.ca/) [Canadian Centre for Occupational Health and Safety (CCOHS)]
- 
-- **Genetic Factors:** 
-   - **India:** https://www.kaggle.com/datasets/aizahzeeshan/lung-cancer-risk-in-25-countries (Kaggle)
-   - **Canada:** https://cancer.ca/en/cancer-information/cancer-types/lung/risks (Canadian Cancer Society)
+- 
    
 #### **Socioeconomic Factors**
 - **Smoking and Tobacco Use:**  
@@ -49,10 +42,6 @@ The data for this study will be collected from multiple publicly available sourc
 - **Healthcare Accessibility:**  
   - **India:** (https://www.cbhidghs.nic.in/)  [National Health Profile]
   - **Canada:** (https://www.cihi.ca/)  [Canadian Institute for Health Information (CIHI)]
-
-- **Economic and Urban-Rural Divide:**  
-  - **India:** (https://censusindia.gov.in/)  [Census of India]
-  - **Canada:** (https://www12.statcan.gc.ca/census-recensement/index-eng.cfm)  [Census Program by Statistics Canada]
 
 - **World Population Dataset:**
    - **India and Canada:** https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset (Kaggle)
