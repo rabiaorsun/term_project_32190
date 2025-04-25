@@ -93,56 +93,82 @@ The model was evaluated using:
 ## 🔍 Findings and Hyphotesis
 ## **The Comparision of India**
  🔵Testing: Tobacco Use vs Lung Cancer Mortality
+ 
 H0 (Null Hypothesis): There is no significant relationship between Tobacco Use and Lung Cancer Mortality.
+
 HA (Alternative Hypothesis): There is a significant relationship between Tobacco Use and Lung Cancer Mortality.
 
 Spearman Correlation (ρ) = -0.990
+
 p-value = 0.0000
+
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
 
 ![image](https://github.com/user-attachments/assets/e0f86a84-577c-4a20-bc86-53cba932ded7)
 
  🔵 Testing: Air Pollution vs Lung Cancer Mortality
+ 
 H0 (Null Hypothesis): There is no significant relationship between Air Pollution and Lung Cancer Mortality.
+
 HA (Alternative Hypothesis): There is a significant relationship between Air Pollution and Lung Cancer Mortality.
 
 Spearman Correlation (ρ) = -0.875
+
 p-value = 0.0000
+
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/92203778-738d-476a-b2b0-257eaa99a5f9)
 
 
  🔵 Testing: Water Pollution vs Lung Cancer Mortality
+ 
 H0 (Null Hypothesis): There is no significant relationship between Water Pollution and Lung Cancer Mortality.
+
 HA (Alternative Hypothesis): There is a significant relationship between Water Pollution and Lung Cancer Mortality.
 
 Spearman Correlation (ρ) = -0.700
+
 p-value = 0.0000
+
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/6395c324-c32b-4f87-b492-82aa74869339)
 
 
  🔵 Testing: Health Expenditure vs Lung Cancer Mortality
+ 
 H0 (Null Hypothesis): There is no significant relationship between Health Expenditure and Lung Cancer Mortality.
+
 HA (Alternative Hypothesis): There is a significant relationship between Health Expenditure and Lung Cancer Mortality.
 
 Spearman Correlation (ρ) = 0.975
+
 p-value = 0.0000
+
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/1ead638a-fab4-4627-b51c-ac8279045c2c)
 
 
  🔵 Testing: Doctors per 1,000 vs Lung Cancer Mortality
+ 
 H0 (Null Hypothesis): There is no significant relationship between Doctors per 1,000 and Lung Cancer Mortality.
+
 HA (Alternative Hypothesis): There is a significant relationship between Doctors per 1,000 and Lung Cancer Mortality.
 
 Spearman Correlation (ρ) = 0.969
+
 p-value = 0.0000
+
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/be973d9d-0b8e-4520-ba93-38d6c07e1741)
 
 **Comparision Table**
+
 ![image](https://github.com/user-attachments/assets/88ac205d-9057-4605-ad69-253768d5051d)
+
 -📌 Interpretation 
  -All five variables show statistically significant relationships with lung cancer mortality in India (p < 0.05).
 
@@ -156,41 +182,62 @@ p-value = 0.0000
 ## **The Comparision of Canada**
  🔎 Testing: Tobacco Use
 H0: There is no relationship between Tobacco Use and Lung Cancer Mortality.
+
 H1: There is a relationship between Tobacco Use and Lung Cancer Mortality.
+
 Spearman ρ = 0.835, p-value = 0.00000001
+
 ✅ Reject H0 (Significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/f79aa3c8-8841-4bc7-afc3-e7ae92e54480)
 
 
  🔎 Testing: Air Pollution
 H0: There is no relationship between Air Pollution and Lung Cancer Mortality.
+
 H1: There is a relationship between Air Pollution and Lung Cancer Mortality.
+
 Spearman ρ = 0.659, p-value = 0.00005560
+
 ✅ Reject H0 (Significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/14c80bb1-8cdd-4fe0-8624-2877d6426e14)
 
 
  🔎 Testing: Water Pollution
 H0: There is no relationship between Water Pollution and Lung Cancer Mortality.
+
 H1: There is a relationship between Water Pollution and Lung Cancer Mortality.
+
 Spearman ρ = 0.587, p-value = 0.00052195
+
 ✅ Reject H0 (Significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/6bb16bc9-c8ac-43b3-b8e7-599b7d91b133)
 
 
  🔎 Testing: Health Expenditure
 H0: There is no relationship between Health Expenditure and Lung Cancer Mortality.
+
 H1: There is a relationship between Health Expenditure and Lung Cancer Mortality.
+
 Spearman ρ = -0.811, p-value = 0.00000003
+
 ✅ Reject H0 (Significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/049eb6ed-8bea-4bb1-a90d-9a69544a7549)
 
 
  🔎 Testing: Doctors per 1,000
+ 
 H0: There is no relationship between Doctors per 1,000 and Lung Cancer Mortality.
+
 H1: There is a relationship between Doctors per 1,000 and Lung Cancer Mortality.
+
 Spearman ρ = -0.841, p-value = 0.00000000
+
 ✅ Reject H0 (Significant relationship detected)
+
 ![image](https://github.com/user-attachments/assets/4e779536-39c5-486c-b368-f643e7c563ff)
 
 **Comparision Table**
