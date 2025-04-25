@@ -55,7 +55,7 @@ The data for this study will be collected from multiple publicly available sourc
 
 #### **Outcome**
    - **Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
-## 🔍 Data Analysis
+## **🔍 Data Analysis**
 
 ## 1. Data Preprocessing
 -Datasets from multiple sources — including air pollution, water pollution, smoking rates, healthcare access, population, and lung cancer incidence — were collected and compiled.
@@ -87,9 +87,9 @@ The model was evaluated using:
 -Scatter plots were created to illustrate the relationships between individual variables and lung cancer incidence.
 -Box plots compared average values of key variables between India and Canada.
 
-## 🔍 Findings
+## **🔍 Findings and Hyphotesis**
 ## The Comparision of India
--🔵Testing: Tobacco Use vs Lung Cancer Mortality
+# 🔵Testing: Tobacco Use vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Tobacco Use and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Tobacco Use and Lung Cancer Mortality.
 
@@ -99,7 +99,7 @@ p-value = 0.0000
 
 ![image](https://github.com/user-attachments/assets/e0f86a84-577c-4a20-bc86-53cba932ded7)
 
--🔵 Testing: Air Pollution vs Lung Cancer Mortality
+# 🔵 Testing: Air Pollution vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Air Pollution and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Air Pollution and Lung Cancer Mortality.
 
@@ -109,7 +109,7 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/92203778-738d-476a-b2b0-257eaa99a5f9)
 
 
-🔵 Testing: Water Pollution vs Lung Cancer Mortality
+# 🔵 Testing: Water Pollution vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Water Pollution and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Water Pollution and Lung Cancer Mortality.
 
@@ -119,7 +119,7 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/6395c324-c32b-4f87-b492-82aa74869339)
 
 
-🔵 Testing: Health Expenditure vs Lung Cancer Mortality
+# 🔵 Testing: Health Expenditure vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Health Expenditure and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Health Expenditure and Lung Cancer Mortality.
 
@@ -129,7 +129,7 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/1ead638a-fab4-4627-b51c-ac8279045c2c)
 
 
-🔵 Testing: Doctors per 1,000 vs Lung Cancer Mortality
+# 🔵 Testing: Doctors per 1,000 vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Doctors per 1,000 and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Doctors per 1,000 and Lung Cancer Mortality.
 
@@ -138,8 +138,20 @@ p-value = 0.0000
 ✅ Result: Null Hypothesis rejected (significant relationship detected)
 ![image](https://github.com/user-attachments/assets/be973d9d-0b8e-4520-ba93-38d6c07e1741)
 
+## Comparision Table 
+![image](https://github.com/user-attachments/assets/88ac205d-9057-4605-ad69-253768d5051d)
+## 📌 Interpretation ##
+ -All five variables show statistically significant relationships with lung cancer mortality in India (p < 0.05).
+
+ -Tobacco Use and Air Pollution have strong negative correlations, suggesting that as these factors increase, lung cancer mortality tends to rise.
+
+ -Health Expenditure and Doctors per 1,000 exhibit strong positive correlations, implying that as healthcare access improves, mortality rates also increase — which may seem counterintuitive. This could reflect a lag effect or improved diagnosis/reporting in better-funded systems.
+
+ -Water Pollution also shows a significant negative relationship.
+
+
 ## The Comparision of Canada
-🔎 Testing: Tobacco Use
+# 🔎 Testing: Tobacco Use
 H0: There is no relationship between Tobacco Use and Lung Cancer Mortality.
 H1: There is a relationship between Tobacco Use and Lung Cancer Mortality.
 Spearman ρ = 0.835, p-value = 0.00000001
@@ -147,7 +159,7 @@ Spearman ρ = 0.835, p-value = 0.00000001
 ![image](https://github.com/user-attachments/assets/f79aa3c8-8841-4bc7-afc3-e7ae92e54480)
 
 
-🔎 Testing: Air Pollution
+# 🔎 Testing: Air Pollution
 H0: There is no relationship between Air Pollution and Lung Cancer Mortality.
 H1: There is a relationship between Air Pollution and Lung Cancer Mortality.
 Spearman ρ = 0.659, p-value = 0.00005560
@@ -155,7 +167,7 @@ Spearman ρ = 0.659, p-value = 0.00005560
 ![image](https://github.com/user-attachments/assets/14c80bb1-8cdd-4fe0-8624-2877d6426e14)
 
 
-🔎 Testing: Water Pollution
+# 🔎 Testing: Water Pollution
 H0: There is no relationship between Water Pollution and Lung Cancer Mortality.
 H1: There is a relationship between Water Pollution and Lung Cancer Mortality.
 Spearman ρ = 0.587, p-value = 0.00052195
@@ -163,7 +175,7 @@ Spearman ρ = 0.587, p-value = 0.00052195
 ![image](https://github.com/user-attachments/assets/6bb16bc9-c8ac-43b3-b8e7-599b7d91b133)
 
 
-🔎 Testing: Health Expenditure
+# 🔎 Testing: Health Expenditure
 H0: There is no relationship between Health Expenditure and Lung Cancer Mortality.
 H1: There is a relationship between Health Expenditure and Lung Cancer Mortality.
 Spearman ρ = -0.811, p-value = 0.00000003
@@ -171,19 +183,64 @@ Spearman ρ = -0.811, p-value = 0.00000003
 ![image](https://github.com/user-attachments/assets/049eb6ed-8bea-4bb1-a90d-9a69544a7549)
 
 
-🔎 Testing: Doctors per 1,000
+# 🔎 Testing: Doctors per 1,000
 H0: There is no relationship between Doctors per 1,000 and Lung Cancer Mortality.
 H1: There is a relationship between Doctors per 1,000 and Lung Cancer Mortality.
 Spearman ρ = -0.841, p-value = 0.00000000
 ✅ Reject H0 (Significant relationship detected)
 ![image](https://github.com/user-attachments/assets/4e779536-39c5-486c-b368-f643e7c563ff)
 
-## After examining each country individually, we conducted a comparative analysis of all variables between India and Canada.##
--This comparison aimed to highlight how differences in environmental and socioeconomic conditions may contribute to disparities in lung cancer incidence rates.
--Key differences observed:
- - India exhibited significantly higher air and water pollution levels.
- - Smoking rates were also higher in India, whereas healthcare accessibility was stronger in Canada.
- - The percentage of the population aged 65+ was higher in Canada, but this factor showed a weaker correlation with lung cancer than pollution and smoking.
- - Overall, the environmental burden in India appears more severe, possibly contributing to a higher lung cancer risk.
-![image](https://github.com/user-attachments/assets/3416e53c-701a-4c3e-9329-7e3bb409974e)
+## Comparision Table 
+![image](https://github.com/user-attachments/assets/b6ea0d0a-2d21-478e-ae12-8c5c477ced29)
+## 📌 Key Observations:
+ -Tobacco Use:
+A very strong positive correlation (ρ = 0.835) suggests that increased tobacco use is strongly associated with higher lung cancer rates. This is one of the most critical factors influencing the disease.
+
+ -Air Pollution:
+Shows a moderately strong positive correlation (ρ = 0.659), supporting the idea that poor air quality significantly contributes to lung cancer incidence.
+
+ -Water Pollution:
+Displays a weaker but still meaningful positive correlation (ρ = 0.587), indicating environmental pollution in general is a relevant factor.
+
+ -Health Expenditure:
+Strong negative correlation (ρ = -0.811) suggests that higher investment in healthcare is associated with lower lung cancer rates, possibly due to better prevention and early diagnosis.
+
+ -Doctors per 1,000:
+The most negative correlation (ρ = -0.841), indicating that greater healthcare accessibility (measured by medical staff availability) is strongly linked to lower incidence rates.
+
+
+## **After examining each country individually, we conducted a comparative analysis of all variables between India and Canada to look at the difference.**##
+![image](https://github.com/user-attachments/assets/95a2d7aa-a99f-451c-b1ed-683a2264d13e)
+
+![image](https://github.com/user-attachments/assets/a5e0388a-d127-4d9b-9ddc-5fce40131d78)
+# -T-test Results:
+-T-statistic: 34.783227715563314
+-P-value: 2.352888101332243e-32
+-Result: Reject the null hypothesis. PM2.5 levels in India and Canada are significantly different.
+
+![image](https://github.com/user-attachments/assets/31fb9aad-b67f-4f43-99e6-a8351fd51fa4)
+
+![image](https://github.com/user-attachments/assets/6fa44bad-7d53-4277-84aa-979fd6ae243d)
+
+## -T-test Results:
+-T-statistic: -57.41459263384998
+-P-value: 2.156445105185347e-32
+-Result: Reject the null hypothesis. Health Expenditure Per Capita (USD PPP) levels in India and Canada are significantly different.
+
+![image](https://github.com/user-attachments/assets/a15687db-cdd7-4eac-8549-656861be4b6b)
+
+![image](https://github.com/user-attachments/assets/313d5697-776d-4c6d-a3fe-c152332efd75)
+
+# -T-test Results:
+-T-statistic: 11.60051334193618
+-P-value: 2.681344669739041e-16
+-Result: Reject the null hypothesis. Water Pollution levels in India and Canada are significantly different.
+
+## Canada vs India: Lung Cancer Mortality
+
+![image](https://github.com/user-attachments/assets/82f2bd63-873c-4860-af9f-94fe7c928bd7)
+
+> The chart shows a contrasting trend in lung cancer mortality between Canada and India over time.  
+> While Canada demonstrates a steady **decline**—likely due to effective tobacco control policies, early diagnosis, and better healthcare—India exhibits a **consistent increase**, suggesting a growing environmental and public health burden.  
+> By 2020, India surpasses Canada in lung cancer mortality, highlighting the urgent need for policy intervention, especially around pollution and tobacco control.
 
