@@ -89,7 +89,7 @@ The model was evaluated using:
 
 ## **🔍 Findings and Hyphotesis**
 ## The Comparision of India
-# 🔵Testing: Tobacco Use vs Lung Cancer Mortality
+ 🔵Testing: Tobacco Use vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Tobacco Use and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Tobacco Use and Lung Cancer Mortality.
 
@@ -99,7 +99,7 @@ p-value = 0.0000
 
 ![image](https://github.com/user-attachments/assets/e0f86a84-577c-4a20-bc86-53cba932ded7)
 
-# 🔵 Testing: Air Pollution vs Lung Cancer Mortality
+ 🔵 Testing: Air Pollution vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Air Pollution and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Air Pollution and Lung Cancer Mortality.
 
@@ -109,7 +109,7 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/92203778-738d-476a-b2b0-257eaa99a5f9)
 
 
-# 🔵 Testing: Water Pollution vs Lung Cancer Mortality
+ 🔵 Testing: Water Pollution vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Water Pollution and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Water Pollution and Lung Cancer Mortality.
 
@@ -119,7 +119,7 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/6395c324-c32b-4f87-b492-82aa74869339)
 
 
-# 🔵 Testing: Health Expenditure vs Lung Cancer Mortality
+ 🔵 Testing: Health Expenditure vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Health Expenditure and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Health Expenditure and Lung Cancer Mortality.
 
@@ -129,7 +129,7 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/1ead638a-fab4-4627-b51c-ac8279045c2c)
 
 
-# 🔵 Testing: Doctors per 1,000 vs Lung Cancer Mortality
+ 🔵 Testing: Doctors per 1,000 vs Lung Cancer Mortality
 H0 (Null Hypothesis): There is no significant relationship between Doctors per 1,000 and Lung Cancer Mortality.
 HA (Alternative Hypothesis): There is a significant relationship between Doctors per 1,000 and Lung Cancer Mortality.
 
@@ -151,7 +151,7 @@ p-value = 0.0000
 
 
 ## The Comparision of Canada
-# 🔎 Testing: Tobacco Use
+ 🔎 Testing: Tobacco Use
 H0: There is no relationship between Tobacco Use and Lung Cancer Mortality.
 H1: There is a relationship between Tobacco Use and Lung Cancer Mortality.
 Spearman ρ = 0.835, p-value = 0.00000001
@@ -159,7 +159,7 @@ Spearman ρ = 0.835, p-value = 0.00000001
 ![image](https://github.com/user-attachments/assets/f79aa3c8-8841-4bc7-afc3-e7ae92e54480)
 
 
-# 🔎 Testing: Air Pollution
+ 🔎 Testing: Air Pollution
 H0: There is no relationship between Air Pollution and Lung Cancer Mortality.
 H1: There is a relationship between Air Pollution and Lung Cancer Mortality.
 Spearman ρ = 0.659, p-value = 0.00005560
@@ -167,7 +167,7 @@ Spearman ρ = 0.659, p-value = 0.00005560
 ![image](https://github.com/user-attachments/assets/14c80bb1-8cdd-4fe0-8624-2877d6426e14)
 
 
-# 🔎 Testing: Water Pollution
+ 🔎 Testing: Water Pollution
 H0: There is no relationship between Water Pollution and Lung Cancer Mortality.
 H1: There is a relationship between Water Pollution and Lung Cancer Mortality.
 Spearman ρ = 0.587, p-value = 0.00052195
@@ -175,7 +175,7 @@ Spearman ρ = 0.587, p-value = 0.00052195
 ![image](https://github.com/user-attachments/assets/6bb16bc9-c8ac-43b3-b8e7-599b7d91b133)
 
 
-# 🔎 Testing: Health Expenditure
+ 🔎 Testing: Health Expenditure
 H0: There is no relationship between Health Expenditure and Lung Cancer Mortality.
 H1: There is a relationship between Health Expenditure and Lung Cancer Mortality.
 Spearman ρ = -0.811, p-value = 0.00000003
@@ -183,7 +183,7 @@ Spearman ρ = -0.811, p-value = 0.00000003
 ![image](https://github.com/user-attachments/assets/049eb6ed-8bea-4bb1-a90d-9a69544a7549)
 
 
-# 🔎 Testing: Doctors per 1,000
+ 🔎 Testing: Doctors per 1,000
 H0: There is no relationship between Doctors per 1,000 and Lung Cancer Mortality.
 H1: There is a relationship between Doctors per 1,000 and Lung Cancer Mortality.
 Spearman ρ = -0.841, p-value = 0.00000000
@@ -213,28 +213,28 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 ![image](https://github.com/user-attachments/assets/95a2d7aa-a99f-451c-b1ed-683a2264d13e)
 
 ![image](https://github.com/user-attachments/assets/a5e0388a-d127-4d9b-9ddc-5fce40131d78)
-# -T-test Results:
--T-statistic: 34.783227715563314
--P-value: 2.352888101332243e-32
--Result: Reject the null hypothesis. PM2.5 levels in India and Canada are significantly different.
+# T-test Results:
+> T-statistic: 34.783227715563314
+> P-value: 2.352888101332243e-32
+> Result: Reject the null hypothesis. PM2.5 levels in India and Canada are significantly different.
 
 ![image](https://github.com/user-attachments/assets/31fb9aad-b67f-4f43-99e6-a8351fd51fa4)
 
 ![image](https://github.com/user-attachments/assets/6fa44bad-7d53-4277-84aa-979fd6ae243d)
 
-## -T-test Results:
--T-statistic: -57.41459263384998
--P-value: 2.156445105185347e-32
--Result: Reject the null hypothesis. Health Expenditure Per Capita (USD PPP) levels in India and Canada are significantly different.
+# -T-test Results:
+> T-statistic: -57.41459263384998
+> P-value: 2.156445105185347e-32
+> Result: Reject the null hypothesis. Health Expenditure Per Capita (USD PPP) levels in India and Canada are significantly different.
 
 ![image](https://github.com/user-attachments/assets/a15687db-cdd7-4eac-8549-656861be4b6b)
 
 ![image](https://github.com/user-attachments/assets/313d5697-776d-4c6d-a3fe-c152332efd75)
 
-# -T-test Results:
--T-statistic: 11.60051334193618
--P-value: 2.681344669739041e-16
--Result: Reject the null hypothesis. Water Pollution levels in India and Canada are significantly different.
+ # T-test Results:
+> T-statistic: 11.60051334193618
+> P-value: 2.681344669739041e-16
+> Result: Reject the null hypothesis. Water Pollution levels in India and Canada are significantly different.
 
 ## Canada vs India: Lung Cancer Mortality
 
