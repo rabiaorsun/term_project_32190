@@ -260,6 +260,7 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 
 
 ## **After examining each country individually, we conducted a comparative analysis of all variables between India and Canada to look at the difference.**##
+
 ![image](https://github.com/user-attachments/assets/95a2d7aa-a99f-451c-b1ed-683a2264d13e)
 
 ![image](https://github.com/user-attachments/assets/a5e0388a-d127-4d9b-9ddc-5fce40131d78)
