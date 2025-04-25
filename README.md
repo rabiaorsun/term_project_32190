@@ -233,7 +233,9 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 
  # T-test Results:
 > T-statistic: 11.60051334193618
+
 > P-value: 2.681344669739041e-16
+
 > Result: Reject the null hypothesis. Water Pollution levels in India and Canada are significantly different.
 
 ## Canada vs India: Lung Cancer Mortality
