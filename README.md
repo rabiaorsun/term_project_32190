@@ -172,13 +172,14 @@ p-value = 0.0000
 ![image](https://github.com/user-attachments/assets/88ac205d-9057-4605-ad69-253768d5051d)
 
 -📌 Interpretation 
- -All five variables show statistically significant relationships with lung cancer mortality in India (p < 0.05).
 
- -Tobacco Use and Air Pollution have strong negative correlations, suggesting that as these factors increase, lung cancer mortality tends to rise.
+  -All five variables show statistically significant relationships with lung cancer mortality in India (p < 0.05).
 
- -Health Expenditure and Doctors per 1,000 exhibit strong positive correlations, implying that as healthcare access improves, mortality rates also increase — which may seem counterintuitive. This could reflect a lag effect or improved diagnosis/reporting in better-funded systems.
+  -Tobacco Use and Air Pollution have strong negative correlations, suggesting that as these factors increase, lung cancer mortality tends to rise.
 
- -Water Pollution also shows a significant negative relationship.
+  -Health Expenditure and Doctors per 1,000 exhibit strong positive correlations, implying that as healthcare access improves, mortality rates also increase — which may seem counterintuitive. This could reflect a lag effect or improved diagnosis/reporting in better-funded systems.
+
+  -Water Pollution also shows a significant negative relationship.
 
 
 ## **The Comparision of Canada**
