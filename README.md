@@ -215,7 +215,9 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 ![image](https://github.com/user-attachments/assets/a5e0388a-d127-4d9b-9ddc-5fce40131d78)
 # T-test Results:
 > T-statistic: 34.783227715563314
+
 > P-value: 2.352888101332243e-32
+
 > Result: Reject the null hypothesis. PM2.5 levels in India and Canada are significantly different.
 
 ![image](https://github.com/user-attachments/assets/31fb9aad-b67f-4f43-99e6-a8351fd51fa4)
@@ -224,7 +226,9 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 
 # -T-test Results:
 > T-statistic: -57.41459263384998
+
 > P-value: 2.156445105185347e-32
+
 > Result: Reject the null hypothesis. Health Expenditure Per Capita (USD PPP) levels in India and Canada are significantly different.
 
 ![image](https://github.com/user-attachments/assets/a15687db-cdd7-4eac-8549-656861be4b6b)
