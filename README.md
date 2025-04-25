@@ -17,10 +17,10 @@ Understanding the factors influencing lung cancer can help policymakers and heal
       - This project aims to highlight the far-reaching consequences of environmental pollution. Comparing India, a country struggling with high pollution levels, to Canada, which has significantly cleaner          air and water, allows for a deeper understanding of how different environmental conditions impact public health. Through this research, we hope to shed light on the need for comprehensive pollution          control measures that address both air and water quality. This study will provide insights into how different living conditions contribute to lung cancer prevalence. Through this research, we hope 
         to emphasize the importance of targeted public health policies, pollution control measures, and improved healthcare accessibility in mitigating lung cancer risks.
 # Hyphotesis  #
-#- H0 (Null Hypothesis):
+# - H0 (Null Hypothesis):
 -There is no significant relationship between environmental/socioeconomic factors and lung cancer incidence.
 
-#-HA (Alternative Hypothesis - senin main hipotezin):
+# -HA (Alternative Hypothesis - senin main hipotezin):
 -Environmental and socioeconomic factors significantly affect lung cancer incidence rates.
     
 # Data Source #
