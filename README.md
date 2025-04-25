@@ -248,17 +248,22 @@ Spearman ρ = -0.841, p-value = 0.00000000
 ![image](https://github.com/user-attachments/assets/b6ea0d0a-2d21-478e-ae12-8c5c477ced29)
 
 -📌 Key Observations:
+
   -Tobacco Use:
 A very strong positive correlation (ρ = 0.835) suggests that increased tobacco use is strongly associated with higher lung cancer rates. This is one of the most critical factors influencing the disease.
+
 
   -Air Pollution:
 Shows a moderately strong positive correlation (ρ = 0.659), supporting the idea that poor air quality significantly contributes to lung cancer incidence.
 
+
   -Water Pollution:
 Displays a weaker but still meaningful positive correlation (ρ = 0.587), indicating environmental pollution in general is a relevant factor.
 
+
   -Health Expenditure:
 Strong negative correlation (ρ = -0.811) suggests that higher investment in healthcare is associated with lower lung cancer rates, possibly due to better prevention and early diagnosis.
+
 
   -Doctors per 1,000:
 The most negative correlation (ρ = -0.841), indicating that greater healthcare accessibility (measured by medical staff availability) is strongly linked to lower incidence rates.
