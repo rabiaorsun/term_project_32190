@@ -1,12 +1,12 @@
 # term_project_32190
 # Environmental and Socioeconomic Factors Affecting Lung Cancer: A Comparative Study of India and Canada
-# 1. Introduction #
+# Introduction #
 Lung cancer remains one of the leading causes of cancer-related deaths worldwide, with environmental and socioeconomic factors playing a significant role in its prevalence. This study aims to compare lung cancer incidence in India and Canada, analyzing how various environmental, occupational, and socioeconomic factors contribute to the disease. The goal is to identify patterns, risk factors, and potential areas for intervention to reduce lung cancer rates in both countries
 
-# 2. Motivation #
+# Motivation #
 Understanding the factors influencing lung cancer can help policymakers and healthcare professionals develop better prevention strategies. India and Canada have stark differences in air quality, smoking rates, healthcare access, and economic conditions, making them ideal for a comparative study. This project will provide valuable insights into how these differences impact lung cancer trends.
 
-# 3. Project Goals #
+# Project Goals #
 - Analyze historical air and water pollution levels,smoking data and the other factors in India and Canada
 - Identify correlations between datas and lung cancer incidence rates
 - Comparing the data between India and Canada, which are very different from each other, in order to ensure that the level of pollution might affect lung cancer.
@@ -16,7 +16,7 @@ Understanding the factors influencing lung cancer can help policymakers and heal
 -  # In general:
       - This project aims to highlight the far-reaching consequences of environmental pollution. Comparing India, a country struggling with high pollution levels, to Canada, which has significantly cleaner          air and water, allows for a deeper understanding of how different environmental conditions impact public health. Through this research, we hope to shed light on the need for comprehensive pollution          control measures that address both air and water quality. This study will provide insights into how different living conditions contribute to lung cancer prevalence. Through this research, we hope 
         to emphasize the importance of targeted public health policies, pollution control measures, and improved healthcare accessibility in mitigating lung cancer risks.
-# 4. Hyphotesis  #
+# Hyphotesis  #
 #- H0 (Null Hypothesis):
 -There is no significant relationship between environmental/socioeconomic factors and lung cancer incidence.
 
