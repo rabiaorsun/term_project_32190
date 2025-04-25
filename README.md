@@ -16,7 +16,13 @@ Understanding the factors influencing lung cancer can help policymakers and heal
 -  # In general:
       - This project aims to highlight the far-reaching consequences of environmental pollution. Comparing India, a country struggling with high pollution levels, to Canada, which has significantly cleaner          air and water, allows for a deeper understanding of how different environmental conditions impact public health. Through this research, we hope to shed light on the need for comprehensive pollution          control measures that address both air and water quality. This study will provide insights into how different living conditions contribute to lung cancer prevalence. Through this research, we hope 
         to emphasize the importance of targeted public health policies, pollution control measures, and improved healthcare accessibility in mitigating lung cancer risks.
-        
+# 4. Hyphotesis  #
+#- H0 (Null Hypothesis):
+-There is no significant relationship between environmental/socioeconomic factors and lung cancer incidence.
+
+#-HA (Alternative Hypothesis - senin main hipotezin):
+-Environmental and socioeconomic factors significantly affect lung cancer incidence rates.
+    
 # Data Source #
 The data for this study will be collected from multiple publicly available sources:
 
@@ -172,4 +178,12 @@ Spearman ρ = -0.841, p-value = 0.00000000
 ✅ Reject H0 (Significant relationship detected)
 ![image](https://github.com/user-attachments/assets/4e779536-39c5-486c-b368-f643e7c563ff)
 
-## After lloking each country individually we look at the difference of their 
+## After examining each country individually, we conducted a comparative analysis of all variables between India and Canada.##
+-This comparison aimed to highlight how differences in environmental and socioeconomic conditions may contribute to disparities in lung cancer incidence rates.
+-Key differences observed:
+ - India exhibited significantly higher air and water pollution levels.
+ - Smoking rates were also higher in India, whereas healthcare accessibility was stronger in Canada.
+ - The percentage of the population aged 65+ was higher in Canada, but this factor showed a weaker correlation with lung cancer than pollution and smoking.
+ - Overall, the environmental burden in India appears more severe, possibly contributing to a higher lung cancer risk.
+![image](https://github.com/user-attachments/assets/3416e53c-701a-4c3e-9329-7e3bb409974e)
+
