@@ -165,7 +165,9 @@ p-value = 0.0000
 
 ![image](https://github.com/user-attachments/assets/be973d9d-0b8e-4520-ba93-38d6c07e1741)
 
+
 **Comparision Table**
+
 
 ![image](https://github.com/user-attachments/assets/88ac205d-9057-4605-ad69-253768d5051d)
 
@@ -241,7 +243,9 @@ Spearman ρ = -0.841, p-value = 0.00000000
 ![image](https://github.com/user-attachments/assets/4e779536-39c5-486c-b368-f643e7c563ff)
 
 **Comparision Table**
+
 ![image](https://github.com/user-attachments/assets/b6ea0d0a-2d21-478e-ae12-8c5c477ced29)
+
 -📌 Key Observations:
   -Tobacco Use:
 A very strong positive correlation (ρ = 0.835) suggests that increased tobacco use is strongly associated with higher lung cancer rates. This is one of the most critical factors influencing the disease.
@@ -264,6 +268,7 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 ![image](https://github.com/user-attachments/assets/95a2d7aa-a99f-451c-b1ed-683a2264d13e)
 
 ![image](https://github.com/user-attachments/assets/a5e0388a-d127-4d9b-9ddc-5fce40131d78)
+
 # T-test Results:
 > T-statistic: 34.783227715563314
 
