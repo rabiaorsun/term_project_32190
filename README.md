@@ -323,4 +323,8 @@ The most negative correlation (ρ = -0.841), indicating that greater healthcare 
 > While Canada demonstrates a steady **decline**—likely due to effective tobacco control policies, early diagnosis, and better healthcare—India exhibits a **consistent increase**, suggesting a growing environmental and public health burden.  
 > By 2020, India surpasses Canada in lung cancer mortality, highlighting the urgent need for policy intervention, especially around pollution and tobacco control.
 
+**📌As a result** :Based on the correlation analysis results where p-values were consistently below 0.05, we reject the null hypothesis (H₀).  
+Thus, we accept the alternative hypothesis (H₁), concluding that environmental and socioeconomic factors significantly affect lung cancer incidence rates.
+
+
 ## You can reach my code: [Dosyaya Gitmek İçin Tıklayın](./main.ipynb)
