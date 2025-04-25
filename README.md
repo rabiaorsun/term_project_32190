@@ -55,7 +55,10 @@ The data for this study will be collected from multiple publicly available sourc
 
 #### **Outcome**
    - **Lung Cancer Rates :** National health statistics, research papers (cancer incidence by region). In this data there are 6 columns. I will just use India and Canada rows. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ambient-air-pollution-attributable-deaths (World Health Organization)
-## **🔍 Data Analysis**
+
+# ** My files of csv is here: 
+
+### **🔍 Data Analysis**
 
 ## 1. Data Preprocessing
 -Datasets from multiple sources — including air pollution, water pollution, smoking rates, healthcare access, population, and lung cancer incidence — were collected and compiled.
