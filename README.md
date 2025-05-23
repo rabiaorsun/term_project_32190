@@ -328,3 +328,65 @@ Thus, we accept the alternative hypothesis (H₁), concluding that environmental
 
 
 ## You can reach my code: [Dosyaya Gitmek İçin Tıklayın](./main.ipynb)
+
+
+### 🧠 Machine Learning Analysis: Predicting Lung Cancer Mortality with Linear Regression
+
+To further understand the relationship between environmental and socioeconomic factors and lung cancer mortality, we developed a supervised machine learning model using a combined dataset from India and Canada. A linear regression model was employed to quantify the influence of each factor on lung cancer death rates.
+
+We faced a challenge due to varying column names across the two countries (e.g., "Tobacco Use" vs. "Final Estimate (Tobacco Use)"). To address this, we created merged feature columns (e.g., `Tobacco Use Combined`) by prioritizing available estimates, ensuring data consistency and maximizing sample size.
+
+---
+
+#### 🔍 Features Used (Independent Variables):
+
+- Tobacco Use (combined)
+- Tobacco Smoking (combined)
+- Cigarette Smoking (combined)
+- Air Pollution (PM2.5)
+- Water Pollution
+- Health Expenditure Per Capita (USD, PPP)
+- Doctors per 1,000 population
+- Hospital Beds per 1,000 population
+- Population Density
+
+---
+
+#### 🎯 Target Variable:
+- Lung Cancer Mortality (per population)
+
+---
+
+### 📈 Model Results
+
+![image](https://github.com/user-attachments/assets/0ad9d1fc-d617-45e4-a9d7-0f4d34c92ba0)
+
+
+- **Model Type:** Linear Regression
+- **Evaluation Metrics (on all data):**
+  - **Mean Squared Error (MSE):** 0.01596
+  - **R² Score:** 0.586
+
+These results suggest that approximately 59% of the variance in lung cancer mortality can be explained by the selected predictors. While this indicates a reasonably strong relationship, the remaining unexplained variance may be attributed to unmeasured factors such as genetic predisposition, occupational exposure, or regional healthcare quality.
+
+---
+
+### 🧠 Interpretation & Insights
+
+- The model shows **consistent alignment** between predicted and actual values, with most predictions clustering around the identity line (y = x).
+- **Air pollution and smoking-related variables** appear to be among the most influential predictors, aligning with established medical literature on the etiology of lung cancer.
+- Interestingly, the inclusion of healthcare-related variables (e.g., doctors per 1,000) also contributed to the model, hinting at the interplay between prevention, diagnosis, and reporting rates.
+
+---
+
+### 🚧 Limitations & Future Work
+
+- Data was limited to only two countries; model generalizability may improve with broader geographic data.
+- Non-linear relationships and interaction effects were not explored; future models could benefit from more complex algorithms such as random forests or gradient boosting.
+- Temporal dynamics were not modeled explicitly. A time series or panel data approach could reveal lagged effects of pollution and policy changes.
+
+---
+
+**Conclusion:**  
+The machine learning model confirms that environmental and health infrastructure indicators are meaningful predictors of lung cancer mortality. Despite limitations, the model provides a data-driven baseline that can be expanded in future work.
+
