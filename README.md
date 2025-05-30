@@ -378,6 +378,7 @@ Each model was evaluated using **5-Fold Cross-Validation** to ensure robustness 
 
 **Linear Regression**  
 ![image](https://github.com/user-attachments/assets/1ca6fb97-c8fe-4ae4-8029-67f0558b4837)
+
 ➡️ Almost perfect fit. Predicted values align extremely well with actual mortality rates.
 
 **KNN**  
@@ -387,10 +388,12 @@ Each model was evaluated using **5-Fold Cross-Validation** to ensure robustness 
 
 **Decision Tree**  
 ![image](https://github.com/user-attachments/assets/b2d7e526-dff0-49b6-a2d5-277881baed27)
+
 ➡️ Captures non-linearity, but minor overfitting causes slight scatter.
 
 **Random Forest**  
 ![image](https://github.com/user-attachments/assets/751c8363-9e17-4c9c-9528-735ab30cc839)
+
 ➡️ Balanced and powerful, provides strong generalization with low error.
 
 ---
@@ -408,18 +411,22 @@ Each model was evaluated using **5-Fold Cross-Validation** to ensure robustness 
 
 **Linear Regression**  
  ![image](https://github.com/user-attachments/assets/c06e6b35-3138-40c6-b1b6-3744f1999a81)
+ 
 ➡️ Moderate fit. The model captures the main trend but shows more residual scatter.
 
 **KNN**  
 ![image](https://github.com/user-attachments/assets/c9ce0b04-bd2e-4775-9289-2e368bae69fa)
+
 ➡️ Slightly better than linear regression, with localized prediction strength.
 
 **Decision Tree**  
 ![image](https://github.com/user-attachments/assets/0fa780c6-abad-4567-bbf8-a7c04050b0ee)
+
 ➡️ Weakest model for Canada. Predictions fluctuate with no clear pattern.
 
 **Random Forest**  
 ![image](https://github.com/user-attachments/assets/d5ad6a28-05a9-444f-bf3c-02229a0df076)
+
 ➡️ Generalizes slightly better than the tree, but struggles with data noise and variance.
 
 ---
@@ -437,7 +444,6 @@ Each model was evaluated using **5-Fold Cross-Validation** to ensure robustness 
 ## Limitations & Future Work
 
 - Data is limited to two countries; broader international data could improve generalizability.
-- Non-linear models like **XGBoost** or **Neural Networks** could further capture hidden patterns.
 - **Feature importance analysis** and **SHAP values** would provide deeper insights into variable influence.
 - Temporal patterns were not analyzed. A panel or time-series approach could identify lag effects from pollution or public health interventions.
 
