@@ -330,15 +330,21 @@ Thus, we accept the alternative hypothesis (H₁), concluding that environmental
 ## You can reach my code: [Dosyaya Gitmek İçin Tıklayın](./main.ipynb)
 
 
-### 🧠 Machine Learning Analysis: Predicting Lung Cancer Mortality with Linear Regression
+## 🧠 Machine Learning Analysis: Country-Specific Modeling of Lung Cancer Mortality
 
-To further understand the relationship between environmental and socioeconomic factors and lung cancer mortality, we developed a supervised machine learning model using a combined dataset from India and Canada. A linear regression model was employed to quantify the influence of each factor on lung cancer death rates.
+To explore the relationship between environmental and socioeconomic factors and lung cancer mortality, we developed supervised machine learning models using country-separated datasets for **India** and **Canada**. Instead of combining the two countries, we trained models individually, aiming to capture regional patterns more effectively and avoid misleading generalizations.
 
-We faced a challenge due to varying column names across the two countries (e.g., "Tobacco Use" vs. "Final Estimate (Tobacco Use)"). To address this, we created merged feature columns (e.g., `Tobacco Use Combined`) by prioritizing available estimates, ensuring data consistency and maximizing sample size.
+We utilized four regression models:
+- Linear Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree Regressor
+- Random Forest Regressor
+
+Each model was evaluated using **5-Fold Cross-Validation** to ensure robustness and avoid overfitting.
 
 ---
 
-#### 🔍 Features Used (Independent Variables):
+### 🔍 Features Used (Independent Variables)
 
 - Tobacco Use (combined)
 - Tobacco Smoking (combined)
@@ -352,41 +358,91 @@ We faced a challenge due to varying column names across the two countries (e.g.,
 
 ---
 
-#### 🎯 Target Variable:
-- Lung Cancer Mortality (per population)
+### Target Variable
+- **Lung Cancer Mortality** (per population)
 
 ---
 
-### 📈 Model Results
+## 📈 Model Performance by Country
 
-![image](https://github.com/user-attachments/assets/0ad9d1fc-d617-45e4-a9d7-0f4d34c92ba0)
+### 🇮🇳 India
 
+| Model              | R² Score | RMSE  |
+|--------------------|----------|-------|
+| Linear Regression  | 0.993    | 0.020 |
+| KNN                | 0.961    | 0.047 |
+| Decision Tree      | 0.934    | 0.061 |
+| Random Forest      | 0.980    | 0.034 |
 
-- **Model Type:** Linear Regression
-- **Evaluation Metrics (on all data):**
-  - **Mean Squared Error (MSE):** 0.01596
-  - **R² Score:** 0.586
+#### 🔬 India: Prediction vs Actual Graphs
 
-These results suggest that approximately 59% of the variance in lung cancer mortality can be explained by the selected predictors. While this indicates a reasonably strong relationship, the remaining unexplained variance may be attributed to unmeasured factors such as genetic predisposition, occupational exposure, or regional healthcare quality.
+**Linear Regression**  
+![image](https://github.com/user-attachments/assets/1ca6fb97-c8fe-4ae4-8029-67f0558b4837)
+➡️ Almost perfect fit. Predicted values align extremely well with actual mortality rates.
+
+**KNN**  
+ ![image](https://github.com/user-attachments/assets/9b00afe7-7179-45bb-9344-354b6dcb0841)
+
+➡️ Strong fit, slightly less precise than linear regression at extremes.
+
+**Decision Tree**  
+![image](https://github.com/user-attachments/assets/b2d7e526-dff0-49b6-a2d5-277881baed27)
+➡️ Captures non-linearity, but minor overfitting causes slight scatter.
+
+**Random Forest**  
+![image](https://github.com/user-attachments/assets/751c8363-9e17-4c9c-9528-735ab30cc839)
+➡️ Balanced and powerful, provides strong generalization with low error.
 
 ---
 
-### 🧠 Interpretation & Insights
+### 🇨🇦 Canada
 
-- The model shows **consistent alignment** between predicted and actual values, with most predictions clustering around the identity line (y = x).
-- **Air pollution and smoking-related variables** appear to be among the most influential predictors, aligning with established medical literature on the etiology of lung cancer.
-- Interestingly, the inclusion of healthcare-related variables (e.g., doctors per 1,000) also contributed to the model, hinting at the interplay between prevention, diagnosis, and reporting rates.
+| Model              | R² Score | RMSE  |
+|--------------------|----------|-------|
+| Linear Regression  | 0.598    | 0.138 |
+| KNN                | 0.635    | 0.132 |
+| Decision Tree      | 0.238    | 0.190 |
+| Random Forest      | 0.571    | 0.143 |
+
+#### 🔬 Canada: Prediction vs Actual Graphs
+
+**Linear Regression**  
+ ![image](https://github.com/user-attachments/assets/c06e6b35-3138-40c6-b1b6-3744f1999a81)
+➡️ Moderate fit. The model captures the main trend but shows more residual scatter.
+
+**KNN**  
+![image](https://github.com/user-attachments/assets/c9ce0b04-bd2e-4775-9289-2e368bae69fa)
+➡️ Slightly better than linear regression, with localized prediction strength.
+
+**Decision Tree**  
+![image](https://github.com/user-attachments/assets/0fa780c6-abad-4567-bbf8-a7c04050b0ee)
+➡️ Weakest model for Canada. Predictions fluctuate with no clear pattern.
+
+**Random Forest**  
+![image](https://github.com/user-attachments/assets/d5ad6a28-05a9-444f-bf3c-02229a0df076)
+➡️ Generalizes slightly better than the tree, but struggles with data noise and variance.
 
 ---
 
-### 🚧 Limitations & Future Work
+## Interpretation & Insights
 
-- Data was limited to only two countries; model generalizability may improve with broader geographic data.
-- Non-linear relationships and interaction effects were not explored; future models could benefit from more complex algorithms such as random forests or gradient boosting.
-- Temporal dynamics were not modeled explicitly. A time series or panel data approach could reveal lagged effects of pollution and policy changes.
+- **India models outperformed Canada’s across all algorithms**, likely due to stronger correlations or less variance in India’s data.
+- **Linear Regression and Random Forest** yielded near-perfect results for India, confirming strong linear patterns and interaction effects.
+- For Canada, **KNN performed best**, suggesting localized trends that simple linear models missed.
+- **Healthcare infrastructure variables** (doctors per 1,000, health expenditure) contributed meaningfully alongside pollution and smoking-related variables.
+- **Decision Trees struggled with Canadian data**, possibly due to smaller sample size or noisier relationships.
 
 ---
 
-**Conclusion:**  
-The machine learning model confirms that environmental and health infrastructure indicators are meaningful predictors of lung cancer mortality. Despite limitations, the model provides a data-driven baseline that can be expanded in future work.
+## Limitations & Future Work
 
+- Data is limited to two countries; broader international data could improve generalizability.
+- Non-linear models like **XGBoost** or **Neural Networks** could further capture hidden patterns.
+- **Feature importance analysis** and **SHAP values** would provide deeper insights into variable influence.
+- Temporal patterns were not analyzed. A panel or time-series approach could identify lag effects from pollution or public health interventions.
+
+---
+
+## ✅ Conclusion
+
+By splitting modeling tasks across countries and applying rigorous cross-validation, we’ve shown that **context-aware models** yield more accurate, interpretable results. The approach highlights the importance of both environmental and healthcare-related factors in predicting lung cancer mortality — and sets the stage for broader, global modeling in future work.
